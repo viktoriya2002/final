@@ -21,7 +21,6 @@ function App() {
             <Route path={'/new'} element={<New/>}/>
             <Route path={'/orders'} element={<Orders/>}/>
             <Route path={'/search'} element={<Search/>}/>
-
             <Route path={'/edit_pets'} element={<Edit_pets/>}/>
             <Route path={'/autification'} element={<Autification/>}/>
             <Route path={'/pet'} element={<Pet/>}/>

@@ -5,7 +5,7 @@ const Search = () => {
         <div>
 
             <main style={{"minHeight": "70vh"}}>
-                <h2 className="text-center text-white bg-primary m-2">Поиск по объявлениям</h2>
+                <h2 className="text-center text-white bg-success m-2">Поиск по объявлениям</h2>
                 <div className="p-3">
                     <form className="w-50 m-auto border p-3" style={{"minWidth": "300px"}}>
 
@@ -28,7 +28,7 @@ const Search = () => {
 
                         </div>
 
-                        <input type="submit" className="btn btn-primary"/>
+                        <input type="submit" className="btn btn-success"/>
                     </form>
                 </div>
             </main>

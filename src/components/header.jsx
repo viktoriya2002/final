@@ -20,7 +20,7 @@ const Header = () => {
                                 <Link to='/index'>&nbsp;Главная&nbsp;</Link>
                             </li>
                             <li className="nav-item">
-                                <Link to='/profile'>&nbsp;Личный кабинет&nbsp;</Link>
+                                <Link to='/autification'>&nbsp;Вход в кабинет&nbsp;</Link>
                             </li>
                             <li className="nav-item">
                                 <Link to='/registration'>&nbsp;Регистрация&nbsp;</Link>
@@ -34,7 +34,7 @@ const Header = () => {
                         </ul>
                         <form className="d-flex">
                             <input className="form-control me-2" type="search" placeholder="Поиск" aria-label="Search"/>
-                                <button className="btn btn-success" onClick="">Поиск</button>
+                                <button className="btn btn-success" onClick="&nbsp;">Поиск</button>
                         </form>
                     </div>
                 </div>

@@ -6,9 +6,9 @@ const New = () => {
 
 
             <main style={{"minHeight": "70vh"}}>
-                <h2 className="text-center text-white bg-primary m-2">Добавление нового объявления</h2>
+                <h2 className="text-center text-white bg-success m-2">Добавление нового объявления</h2>
                 <div className="p-3">
-                    <form className="w-50 m-auto border border-primary p-3" style={{"minWidth": "300px"}}>
+                    <form className="w-50 m-auto border border-success p-3" style={{"minWidth": "300px"}}>
 
                         <div className="mb-3">
                             <label htmlFor="name" className="form-label">Введите ваше имя</label>
@@ -76,7 +76,7 @@ const New = () => {
                                 персональных данных</label>
                         </div>
 
-                        <input type="submit" className="btn btn-primary form-control"/>
+                        <input type="submit" className="btn btn-success form-control"/>
                     </form>
                 </div>
             </main>
